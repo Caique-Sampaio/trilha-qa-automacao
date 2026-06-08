@@ -13,9 +13,9 @@ console.log("=== Início dos exercícios: estruturas condicionais ===\n");
 const idadeUsuario = 19;
 
 if (idadeUsuario >= 18) {
-  console.log("O usuário é maior de idade.");
+  console.log("Ex1: O usuário é maior de idade.");
 } else {
-  console.log("O usuário é menor de idade.");
+  console.log("Ex1: O usuário é menor de idade.");
 }
 
 // ---------------------------------------------
@@ -26,13 +26,13 @@ if (idadeUsuario >= 18) {
 const statusCode = 200;
 
 if (statusCode === 200) {
-  console.log("Status code 200: Sucesso!");
+  console.log("Ex2: Status code 200: Sucesso!");
 } else if (statusCode === 404) {
-  console.log("Status code 404: Recurso não encontrado.");
+  console.log("EX2: Status code 404: Recurso não encontrado.");
 } else if (statusCode === 500) {
-  console.log("Status code 500: Erro interno do servidor.");
+  console.log("Ex2: Status code 500: Erro interno do servidor.");
 } else {
-  console.log("Status desconhecido.");
+  console.log("Ex2: Status desconhecido.");
 }
 
 // ---------------------------------------------
@@ -45,11 +45,11 @@ const usuarioSenha = 1234;
 
 if (usuarioAtivo) {
   if (usuarioSenha === 123) {
-    console.log("Login permitido!");
+    console.log("Ex3: Login permitido!");
   }
   else{
-    console.log("Senha inválida.");
+    console.log("Ex3: Senha inválida.");
   }
 } else {
-  console.log("Usuário desativado.");
+  console.log("Ex3: Usuário desativado.");
 }
